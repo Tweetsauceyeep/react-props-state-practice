@@ -20,6 +20,7 @@ class Clock extends Component {
   }
 
   render() {
+    console.log(this.props)
     return (
       <div className = "clock">
         <h2>its currently {this.state.date.toLocaleTimeString()}.</h2>
